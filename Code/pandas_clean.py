@@ -4,7 +4,7 @@ import numpy as np
 def clean_dataset()->pd.DataFrame: 
     pd.set_option('display.max_columns',None)
 
-    data = pd.read_csv('used_cars.csv', header=0, delimiter=',')
+    data = pd.read_csv('Data/used_cars.csv', header=0, delimiter=',')
 
     print(f"Following is the pandas dataframe created from csv:\n{data.head(5)}")
 
